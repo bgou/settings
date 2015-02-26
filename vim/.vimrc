@@ -1,0 +1,11 @@
+syntax on
+colorscheme desert
+set hls
+set ts=4
+set sw=4
+set sta
+set sts=4
+set sr
+set et
+set ai
+set si

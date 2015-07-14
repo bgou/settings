@@ -83,10 +83,6 @@ alias tran='cd ~/repos/java/scs_transportation'
 # Aliases
 #####################################
 
-# Git shortcuts
-alias gs='git status'
-alias gp='git pull --rebase'
-alias gss='git stash save'
 
 # Local shortcut
 alias sql='cd ~/repos/php/pusher_ups/sql'

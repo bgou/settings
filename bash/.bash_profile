@@ -1,9 +1,5 @@
-JAVA_HOME=$(/usr/libexec/java_home -v 1.7)
+JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 export JAVA_HOME
-
-FISHEYE_INST="/Users/bgou/repos/fisheye_inst"
-export FISHEYE_INST
-
 source ~/.bashrc_aliases
 
 #  ---------------------------------------------------------------------------
@@ -308,10 +304,3 @@ httpHeaders () { /usr/bin/curl -I -L $@ ; }             # httpHeaders:      Grab
 #   e.g.: hdiutil create -size 10m 10MB.dmg
 #   the above create files that are almost all zeros - if random bytes are desired
 #   then use: ~/Dev/Perl/randBytes 1048576 > 10MB.dat
-export NPM_PACKAGES="/Users/bgou/.npm-packages"
-export NODE_PATH="$NPM_PACKAGES/lib/node_modules:$NODE_PATH"
-export PATH="$NPM_PACKAGES/bin:$PATH"
-export DOCKER_TLS_VERIFY="1"
-export DOCKER_HOST="tcp://192.168.99.100:2376"
-export DOCKER_CERT_PATH="/Users/bgou/.docker/machine/machines/default"
-export DOCKER_MACHINE_NAME="default"
